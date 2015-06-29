@@ -1,0 +1,163 @@
+.Graphics {
+background-color: #2a2a2a;
+padding-bottom:20px;
+padding-top: 10px;
+}
+
+.Graphics img {
+transition: all 1s ease;
+width: 80%;
+box-shadow: 0px 0px 20px #000000;
+}
+
+@media screen and (max-width: 600px) {
+
+.Graphics img {
+width: 100%;
+box-shadow: 0px 0px 20px #000000;
+}
+
+}
+
+.Graphics h1 {
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 40px;
+}
+
+.Graphics p {
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+.Graphics h1 {
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 25px;
+}
+
+.Graphics p {
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+font-weight: 300;
+}
+
+
+}
+
+
+.Graphics a {
+color: #059edf;
+font-size: 125%;
+}
+
+.Flat_Design {
+padding-top:20px;
+padding-bottom:40px;
+background-color: #252525;
+
+}
+
+.Flat_Design h2 {
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 40px;
+}
+
+.Flat_Design h1{
+text-align: center;
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:20px;
+padding:10px;
+}
+
+.Flat_Design p {
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+padding-bottom:25px;
+}
+
+
+.Flat_Design img:hover {
+width: 115px;
+transition: all 0.5s ease;
+}
+.Flat_Design img {
+width: 100px;
+transition: all 0.5s ease;
+}
+
+.button a{
+text-decoration: none;
+
+}
+
+.button {
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: #ffffff;
+font-size: 30px;
+padding: 10px;
+border-width: 3px;
+border-style: solid;
+border-color: #ffffff;
+transition: all 1s ease;
+text-transform: uppercase;
+}
+
+.button:hover {
+transition: all 1s ease;
+background-color: #059edf;
+
+}
+
+@media screen and (max-width: 600px) {
+.button {
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: #ffffff;
+font-size: 25px;
+padding: 10px;
+border-width: 3px;
+border-style: solid;
+border-color: #ffffff;
+transition: all 1s ease;
+text-transform: uppercase;
+}
+
+.button:hover {
+transition: all 1s ease;
+background-color: #059edf;
+
+}
+}
+
+

@@ -1,0 +1,130 @@
+.Graphics {
+background-color: #2a2a2a;
+padding-bottom:50px;
+padding-top: 10px;
+}
+
+.Graphics h1 {
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 40px;
+}
+
+.Graphics p{
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+font-weight: 300;
+padding-bottom:40px;
+}
+
+.Web{
+padding-top:20px;
+padding-bottom:50px;
+background-color: #252525;
+}
+
+.Web  h1 {
+padding-top:10px;
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 40px;
+}
+
+.Web  p{
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+font-weight: 300;
+padding-bottom:20px;
+padding-bottom:40px;
+}
+
+.Videos{
+padding-top:20px;
+padding-bottom:50px;
+background-color: #202020;
+}
+
+.Videos h1 {
+padding-top:10px;
+padding-bottom:20px;
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+padding:10px;
+padding-top:40px;
+font-weight: 300;
+font-size: 40px;
+}
+
+.Videos  p{
+font-family: 'Lato', sans-serif;
+color: #ffffff;
+max-width:500px;
+font-size:17px;
+padding:10px;
+font-weight: 300;
+padding-bottom:20px;
+padding-bottom:40px;
+}
+
+.button a{
+text-decoration: none;
+
+}
+
+.button {
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: #ffffff;
+font-size: 30px;
+padding: 20px;
+border-width: 3px;
+border-style: solid;
+border-color: #ffffff;
+transition: all 1s ease;
+text-transform: uppercase;
+}
+
+.button:hover {
+transition: all 1s ease;
+background-color: #059edf;
+
+}
+
+@media screen and (max-width: 600px) {
+.button {
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: #ffffff;
+font-size: 25px;
+padding: 15px;
+border-width: 3px;
+border-style: solid;
+border-color: #ffffff;
+transition: all 1s ease;
+text-transform: uppercase;
+}
+
+.button:hover {
+transition: all 1s ease;
+background-color: #059edf;
+
+}
+}
+
