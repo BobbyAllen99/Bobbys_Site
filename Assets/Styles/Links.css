@@ -1,36 +1,33 @@
 .links {
-padding-top:20px;
-padding-bottom:20px;
-background-color: #ffffff;
-text-align: center;
+  background-color: #ffffff;
+  padding: 20px 0; 
+  text-align: center;
 }
 
 .links h1 {
-color: #000000;
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-font-size: 34px;
-padding-bottom:20px;
-text-transform: uppercase;
+  color: #000000;
+  font-size: 34px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .links p {
-color: #000000;
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-font-size: 18px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
 }
 
-.links img  {
-padding:20px;
-height: 200px;
-transition: all 1s ease;
+.links img {
+  height: 200px;
+  padding: 20px;
+  transition: all 1s ease;
 }
 
 .links img:hover  {
-padding:20px;
-height: 210px;
-transition: all 1s ease;
+  height: 210px;
+  padding: 20px;
+  transition: all 1s ease;
 }
 
 @media screen and (max-width: 600px) {
@@ -39,9 +36,9 @@ transition: all 1s ease;
     transition: all 1s ease;
   }
 
-  .links img:hover  {
-  padding:20px;
-  height: 190px;
-  transition: all 1s ease;
+  .links img:hover {
+    height: 190px;
+    padding: 20px;
+    transition: all 1s ease;
   }
 }

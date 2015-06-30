@@ -1,15 +1,19 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .navigation ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .navigation nav { 
   background-color: #303030;
   box-shadow: 0px 0px 20px #000000;
-  padding-top:10px;
-  text-align: center; 
   opacity: 0.70;
+  padding-top: 10px;
+  text-align: center; 
   filter: alpha(opacity=70);
 }
 
@@ -19,9 +23,8 @@
 
 .navigation ul li {
   display: inline; 
-  padding:100px;
-  font-size:20px;
-  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 100px;
   text-transform: uppercase;
   transition: all 1s ease;
 }
@@ -29,9 +32,8 @@
 @media screen and (max-width: 900px) {
   .navigation ul li {
     display: inline; 
-    padding:30px;
-    font-size:20px;
-    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 30px;
     text-transform: uppercase;
     transition: all 1s ease;
   }
@@ -40,9 +42,8 @@
 @media screen and (max-width: 500px) {
   .navigation ul li {
     display: inline; 
-    padding:3px;
-    font-size:18px;
-    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 3px;
     text-transform: uppercase;
     transition: all 1s ease;
   }
@@ -55,57 +56,57 @@
 }
 
 .navigation ul li a {
-  font-width: 300;
   color: #ffffff;
+  font-width: 300;
   transition: all 1s ease;
 }
 
 @media screen and (min-width: 500px) {
   .navigation ul li  a:hover{
-    font-size:22px;
+    font-size: 22px;
     transition: all 1s ease;
     text-decoration: none;
   }
 }
 
 .navigation ul li  a:visited{
-  font-size:23px;
+  font-size: 23px;
   transition: all 1s ease;
   text-decoration: none;
 }
 
 .logo-container {
   background: url("http://www.bobbyallen.co/Assets/Images/Background.jpg")  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   transition: all 1s ease;
   text-align: center;
 }
 
 .logo-container img {
+  margin: auto;
   padding-top: 145px;
   padding-bottom: 145px;
   width: 350px;
-  margin: auto;
   transition: all 1s ease;
 }
 
 @media screen and (max-width: 550px) {
   .logo-container img {
+    margin: auto;
     padding-top: 100px;
     padding-bottom: 75px;
-    width: 300px;
-    margin: auto;
     transition: all 1s ease;
+    width: 300px;
   }
 }
 
 .social-icons-container {
-  padding-top:20px;
-  padding-bottom:20px;
   background-image: url("http://www.bobbyallen.co/Assets/Images/Social.jpg");
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -117,115 +118,106 @@
   text-decoration: none;
 }
 
-.social-icons-container row{
-  width: 100px;
-}
-
 .social-icons-container  h1 {
-  padding-top:10px;
-  padding-bottom:20px;
   color: #ffffff;
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  padding:10px;
-  padding-top:40px;
-  font-weight: 300;
   font-size: 40px;
-  padding:10px;
+  font-weight: 300;
+  padding: 40px 0 20px 0 ;
+  text-transform: uppercase;
 }
 
 .social-icons-container  p{
-  transition: all 1s ease;
-  font-family: 'Lato', sans-serif;
   color: #ffffff;
-  font-size:18px;
-  padding:10px;
+  font-size: 18px;
   font-weight: 300;
-  padding-bottom:20px;
   max-width: 700px;
   margin: 0 auto;
+  padding: 10px;
+  padding-bottom:20px;
+  transition: all 1s ease;
 }
 
 .social-icons-container .container p {
-  font-size:70px;
+  font-size: 70px;
   transition: all 0.5s ease;
 }
 
 
 .social-icons-container .row  .fa-youtube-play {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   border-color: #ffffff;
-  transition: all 1s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 1s ease;
 }
 
 .social-icons-container .row  .fa-youtube-play:hover {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   background: #e52d27;
   border-color: #e52d27;
-  transition: all 0.8s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 0.8s ease;
 }
 
 .social-icons-container .row  .fa-twitter {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   border-color: #ffffff;
-  transition: all 1s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 1s ease;
 }
 
 .social-icons-container .row  .fa-twitter:hover {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   background: #4099FF;
   border-color: #4099FF;
-  transition: all 0.8s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 0.8s ease;
+  
 }
 
 .social-icons-container .row  .fa-google-plus {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   border-color: #ffffff;
-  transition: all 1s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 1s ease;
 }
 
 .social-icons-container .row  .fa-google-plus:hover {
-  padding: 15px;
-  border-width: 2px;
-  border-style: solid;
   background: #D84B37;
   border-color: #D84B37;
-  transition: all 0.8s ease;
   border-radius: 10%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  transition: all 0.8s ease;
+  
 }
 
 
 .button {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
   background-color: #e74c3c;
   border-color: #e74c3c;
-  font-size: 30px;
-  padding: 20px;
-  border-width: 3px;
-  border-style: solid;
-  text-transform: uppercase;
   border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 20px;
+  text-transform: uppercase; 
 }
 
 .button:hover {
-  transition: all 1s ease;
   background-color: #e74c3c;
   border-color: #e74c3c;
+  transition: all 1s ease;
 }

@@ -1,43 +1,41 @@
 body {
   background: #ffffff;
-
 }
 
 .information-container {
   background-color: #ffffff;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   padding-top: 40px;
   text-align: center;
 }
 
 .information-container h1 {
-  padding-bottom:20px;
   color: #222222;
-  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  padding-bottom: 20px;
   text-transform: uppercase;
   padding:10px;
-  font-weight: 300;
-  font-size: 40px;
 }
 
 .information-container p {
-  font-family: 'Lato', sans-serif;
   color: #222222;
-  font-size:17px;
-  padding:10px;
+  font-size: 17px;
   font-weight: 300;
+  padding: 10px;
 }
 
 .information-container h2 {
+  background: #33a1ff;
+  border-radius: 50%;
   color: #ffffff;
   font-size: 125px;
-  padding: 10px;
-  transition: all 1s ease;
-  border-radius: 50%;
-  width: 200px;
   height: 200px;
   margin: 0 auto;
-  background: #33a1ff;
+  padding: 10px;
+  transition: all 1s ease;
+  width: 200px;
+
 }
 
 .information-container .fa {
