@@ -1,130 +1,92 @@
-.Graphics {
-background-color: #2a2a2a;
-padding-bottom:50px;
-padding-top: 10px;
+body {
+  background-color: #ffffff;
 }
 
-.Graphics h1 {
-padding-bottom:20px;
-color: #ffffff;
-font-family: 'Lato', sans-serif;
-text-transform: uppercase;
-padding:10px;
-padding-top:40px;
-font-weight: 300;
-font-size: 40px;
+.graphics-container {
+  background-color: #ffffff ;
+  padding-bottom:50px;
+  padding-top: 10px;
+  text-align: center;
 }
 
-.Graphics p{
-font-family: 'Lato', sans-serif;
-color: #ffffff;
-max-width:500px;
-font-size:17px;
-padding:10px;
-font-weight: 300;
-padding-bottom:40px;
+.graphics-container h1 {
+  padding-bottom:20px;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  padding:10px;
+  padding-top:40px;
+  font-weight: 300;
+  font-size: 40px;
 }
 
-.Web{
-padding-top:20px;
-padding-bottom:50px;
-background-color: #252525;
+.graphics-container p { 
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-size:17px;
+  padding:10px;
+  font-weight: 300;
+  padding-bottom:40px;
 }
 
-.Web  h1 {
-padding-top:10px;
-padding-bottom:20px;
-color: #ffffff;
-font-family: 'Lato', sans-serif;
-text-transform: uppercase;
-padding:10px;
-padding-top:40px;
-font-weight: 300;
-font-size: 40px;
+.web-development-container {
+  padding-top:20px;
+  padding-bottom:50px;
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
-.Web  p{
-font-family: 'Lato', sans-serif;
-color: #ffffff;
-max-width:500px;
-font-size:17px;
-padding:10px;
-font-weight: 300;
-padding-bottom:20px;
-padding-bottom:40px;
+.web-development-container h1 {
+  padding-top:10px;
+  padding-bottom:20px;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  padding:10px;
+  padding-top:40px;
+  font-weight: 300;
+  font-size: 40px;
 }
 
-.Videos{
-padding-top:20px;
-padding-bottom:50px;
-background-color: #202020;
+.web-development-container p{
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-size:17px;
+  padding:10px;
+  font-weight: 300;
+  padding-bottom:20px;
+  padding-bottom:40px;
 }
 
-.Videos h1 {
-padding-top:10px;
-padding-bottom:20px;
-color: #ffffff;
-font-family: 'Lato', sans-serif;
-text-transform: uppercase;
-padding:10px;
-padding-top:40px;
-font-weight: 300;
-font-size: 40px;
+.videos{
+  padding-top:20px;
+  padding-bottom:50px;
+  background-color: #e6e6e6;
+  text-align: center;
 }
 
-.Videos  p{
-font-family: 'Lato', sans-serif;
-color: #ffffff;
-max-width:500px;
-font-size:17px;
-padding:10px;
-font-weight: 300;
-padding-bottom:20px;
-padding-bottom:40px;
+.videos h1 {
+  padding-top:10px;
+  padding-bottom:20px;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  padding:10px;
+  padding-top:40px;
+  font-weight: 300;
+  font-size: 40px;
 }
 
-.button a{
-text-decoration: none;
-
+.videos  p{
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-size:17px;
+  padding:10px;
+  font-weight: 300;
+  padding-bottom:20px;
+  padding-bottom:40px;
 }
 
-.button {
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-color: #ffffff;
-font-size: 30px;
-padding: 20px;
-border-width: 3px;
-border-style: solid;
-border-color: #ffffff;
-transition: all 1s ease;
-text-transform: uppercase;
-}
 
-.button:hover {
-transition: all 1s ease;
-background-color: #059edf;
 
-}
-
-@media screen and (max-width: 600px) {
-.button {
-font-family: 'Lato', sans-serif;
-font-weight: 300;
-color: #ffffff;
-font-size: 25px;
-padding: 15px;
-border-width: 3px;
-border-style: solid;
-border-color: #ffffff;
-transition: all 1s ease;
-text-transform: uppercase;
-}
-
-.button:hover {
-transition: all 1s ease;
-background-color: #059edf;
-
-}
-}
 
