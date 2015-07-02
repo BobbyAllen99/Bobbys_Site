@@ -76,7 +76,7 @@ body {
 }
 
 .logo-container {
-  background: url("http://www.bobbyallen.co/Assets/Images/Background.jpg")  no-repeat center center fixed;
+  background: url("../../Assets/Images/Background.jpg")  no-repeat center center fixed;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -104,7 +104,7 @@ body {
 }
 
 .social-icons-container {
-  background-image: url("http://www.bobbyallen.co/Assets/Images/Social.jpg");
+  background-image: url("../../Assets/Images/Social.jpg");
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
