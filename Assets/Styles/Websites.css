@@ -7,10 +7,10 @@
 
 .websites p {
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 550px;
   padding-bottom:30px;
 }
 
@@ -24,11 +24,11 @@
 }
 
 .websites img {
-  width: 400px;
-  padding-top: 20px;
+  width: 650px;
+  padding-top: 40px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
   .websites img {
     width: 100%;
     padding: 10px;
